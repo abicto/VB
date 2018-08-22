@@ -79,6 +79,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -99,6 +105,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -117,6 +126,147 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\armchair-silhouette.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\behance-logo-button.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell-ringing.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera-shutter.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkbox-pen-outline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chronometer-outline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipboard-icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipboard-outline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffe-cup-outline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compact-disc-icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer-screens-icons.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\directions-signs-outlines.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downloading-action.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dribble-logo-button.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empty-shopping-cart.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-button.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook-logo-button.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flask-outline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folded-document-icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folded-map.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\globe-outline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google-plus-logo-button.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\happy-mac-logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart-rate-monitor.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearts-outline-icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house-outline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inbox-icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instagram-logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jar-almost-full-outline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karaoke-microphone-icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laptop-icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\layers-icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light-bulb-icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lighting-button.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linkedin-logo-button.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map-pin-marked.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nut-icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\old-fashion-briefcase.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-camera-outline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pie-chart-outline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power-button-outline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power-cord.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\presentation-outline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\present-outline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pyre-silhouette.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quaver-outline.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
